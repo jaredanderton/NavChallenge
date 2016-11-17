@@ -28,6 +28,7 @@
 		67038ED71D62C90B007CC8CD /* UIDevice+NavChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67038ED61D62C90B007CC8CD /* UIDevice+NavChallenge.swift */; };
 		67038ED91D62E0C8007CC8CD /* MovieTrailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67038ED81D62E0C8007CC8CD /* MovieTrailer.swift */; };
 		67038EE41D62E918007CC8CD /* PlayTrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67038EE31D62E918007CC8CD /* PlayTrailerViewController.swift */; };
+		802409241DDE70D90055D6E4 /* testjaxon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802409231DDE70D90055D6E4 /* testjaxon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		67038ED81D62E0C8007CC8CD /* MovieTrailer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTrailer.swift; sourceTree = "<group>"; };
 		67038EE31D62E918007CC8CD /* PlayTrailerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayTrailerViewController.swift; sourceTree = "<group>"; };
 		7628A65A0BD0CC3A546D2437 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		802409231DDE70D90055D6E4 /* testjaxon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testjaxon.swift; sourceTree = "<group>"; };
 		F53C882EF0323371D9697532 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				67038EBC1D5EF0B9007CC8CD /* Movie.swift */,
+				802409231DDE70D90055D6E4 /* testjaxon.swift */,
 				67038ED81D62E0C8007CC8CD /* MovieTrailer.swift */,
 				67038ECC1D62AF81007CC8CD /* NavigationController.swift */,
 			);
@@ -230,6 +233,7 @@
 				TargetAttributes = {
 					67038E9A1D5EDF57007CC8CD = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -329,6 +333,7 @@
 				67038EB31D5EE266007CC8CD /* SearchViewController.swift in Sources */,
 				67038EC71D620283007CC8CD /* UIView+NavChallenge.swift in Sources */,
 				67038ECB1D6242B8007CC8CD /* UIFont+SytemFontOverride.m in Sources */,
+				802409241DDE70D90055D6E4 /* testjaxon.swift in Sources */,
 				67038EB11D5EE101007CC8CD /* Constants.swift in Sources */,
 				67038EBF1D601ABE007CC8CD /* NSData+NavChallenge.swift in Sources */,
 				67038ED51D62C840007CC8CD /* SearchCollectionViewCell.swift in Sources */,
@@ -454,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andertondev.NavChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = NavChallenge/bridge.h;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -467,6 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andertondev.NavChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = NavChallenge/bridge.h;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};

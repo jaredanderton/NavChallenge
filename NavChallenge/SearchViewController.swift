@@ -193,7 +193,7 @@ class SearchViewController: ViewController, UISearchBarDelegate, UICollectionVie
         // dynamically size the cells, for consistent size and spacing across different devices
         let screenSize: CGRect  = UIScreen.mainScreen().bounds
         let spacing             = Float(8.0)
-        var mult                = Float(2.5)
+        let mult                = Float(2.5)
         let positiveSpace       = Float(screenSize.size.width) - (spacing * mult)
         let w                   = positiveSpace / 2.0
         let h                   = w
